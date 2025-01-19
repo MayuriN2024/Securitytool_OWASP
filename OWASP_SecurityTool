@@ -1,0 +1,33 @@
+OWASP
+
+
+
+OWASP stands for the Open Web Application Security Project, 
+a global non-profit organization focused on improving the security of software. OWASP provides tools, resources, 
+best practices, and community-driven projects to help developers, organizations,
+and security professionals identify, mitigate,
+and address vulnerabilities in web and application security.
+
+
+Find Dependecies Being Used in the Project 
+Matching Dependencies Found in project with the information in the DB
+Generative A Reort with the information about any vulnerabilities found.
+
+Dependency - Check is a software composition analysis tool that helps identify known vulnerabilities in project dependencies.
+To install and execute Dependency-check on Linux Ubuntu, folllow these steps:
+
+
+
+
+
+step1: Install java Development Kit(JDk)
+Dependency-Check requires java to run if you don't have java installed , yu can install it using the following commands
+
+sudo apt update
+sudo apt install default jdk
+
+
+step 2: Download dependency Check 
+You can download Dependency check  from the official GitHub repository. You can use hte followiing commands ot download the tools.
+
+
