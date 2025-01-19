@@ -29,5 +29,35 @@ sudo apt install default jdk
 
 step 2: Download dependency Check 
 You can download Dependency check  from the official GitHub repository. You can use hte followiing commands ot download the tools.
+https://github.com/jeremylong/DependencyCheck/releases/download/v12.0.0/dependency-check-12.0.0-release.zip
+This link is from Github Search DependencyCheck====================> jermylong Repo/ =============release ==============copy
+
+
+step 3: Unzip the downloaded archive using the following command.
+
+unzip dependency-check-12.0.0-release.zip
+
+
+
+Step 4: Run dependency-check
+
+Navigate to the extracted directory ad execute dependency-check
+
+cd dependecy-check./bin/dependency-check-12.0.0-release.sh  --project YourProjectName --scan/path/to/your/project
+
+
+
+---Replace YOurProjectName with the sesired Project name and /path/to/your/project.......with the actual path to your project's root directory that you want ot scan for vulnerabilities.
+
+---Dependency check will start analyzing the project's dependencies and searching for known vulnerabilities in various databases. Once hte scan s complete
+you will see a report genreated in various formats (HTML, XML , JSON) in the dependency-check-report..... directory.
+
+---Remembere that Dependecy-check's effectiveness depends on its database of known vulnerabilites. so make sure to keeep it up to date by regularly updating the tool
+
+
+
+
+
+
 
 
